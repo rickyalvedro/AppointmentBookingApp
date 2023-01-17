@@ -1,0 +1,32 @@
+{
+  "name": "appointmentbookingapp",
+  "version": "1.0.0",
+  "description": "fullstackBookingAppointmentApp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickyalvedro/AppointmentBookingApp.git"
+  },
+  "author": "Sirajuddin Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickyalvedro/AppointmentBookingApp/issues"
+  },
+  "homepage": "https://github.com/rickyalvedro/AppointmentBookingApp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "espress": "^0.0.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
